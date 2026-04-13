@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard - Smart Dustbin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome, <span id="user-name">Employee</span></h1>
+  <table>
+    <tr>
+      <th>Dustbin ID</th>
+      <th>Filled (%)</th>
+      <th>Snooze</th>
+      <th>Done</th>
+    </tr>
+    <tr>
+      <td>BIN001</td>
+      <td>85%</td>
+      <td><button onclick="snooze('BIN001')">⏸️</button></td>
+      <td><button onclick="done('BIN001')">✅</button></td>
+    </tr>
+    <!-- Add more rows dynamically -->
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
