@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "Nice";
-const char* password = "superbro";
+const char* ssid     = "ssid";
+const char* password = "password";
 
 const char* host = "api.thingspeak.com";  
-const char* apiKey = "VDOWSWOQTDMI94VD";  // Your Write API Key
+const char* apiKey = "VDOWDGTXGXUF";  // Your Write API Key
 
 // Ultrasonic sensor pins
 const int trigPin = 12;
