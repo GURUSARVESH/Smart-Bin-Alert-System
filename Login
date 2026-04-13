@@ -15,4 +15,4 @@
   <script src="script.js"></script>
 </body>
 </html>
-// loginpage credientials to xampp - sql code will be added later
+
